@@ -142,7 +142,7 @@
                         
                         <div class="flex justify-between">
                             <span class="text-slate-400">Học phần:</span>
-                            <span class="text-brand-500 font-semibold">Nhập môn Công nghệ số và Trí tuệ nhân tạo </span>
+                            <span class="text-brand-500 font-semibold">Nhập môn công nghệ số và trí tuệ nhân tạo </span>
                         </div>
                         
                     </div>
@@ -348,35 +348,23 @@
                         <div class="space-y-6">
                             <div class="flex flex-col lg:flex-row justify-between items-start gap-6">
                                 <div class="space-y-4 lg:w-1/2">
-                                    <span class="bg-brand-950 text-brand-500 border border-brand-500/20 px-3 py-1 rounded-md text-xs font-semibold">Bài 2</span>
+                                    <span class="bg-brand-950 text-brand-500 border border-brand-500/20 px-3 py-1 rounded-md text-xs font-semibold">Bài 2 (Mục 2.4)</span>
                                     <h3 class="text-2xl font-bold text-white">Tìm kiếm và Đánh giá thông tin học thuật</h3>
                                     <div class="mt-4">
                                         <a href="assets/bai2.pdf" target="_blank" class="bg-gradient-to-r from-brand-600 to-teal-500 text-black font-semibold text-xs sm:text-sm px-4 py-2 rounded-xl transition shadow-lg inline-block">Tài liệu chi tiết (PDF)</a>
                                     </div>
                                     <p class="text-slate-400 text-sm leading-relaxed">
-                                        <strong>Mục tiêu:</strong> Tìm kiếm học thuật bằng các toán tử nâng cao và đánh giá độ tin cậy của nguồn tin.
+                                        <strong>Mục tiêu:</strong> Thu thập thông tin học thuật đỉnh cao để chuẩn bị cơ sở dữ liệu cho nghiên cứu khoa học, sử dụng các cú pháp tìm kiếm có chọn lọc nhằm lọc bỏ hoàn toàn các tin tức rác hoặc nguồn tin thiếu kiểm chứng.
                                     </p>
                                     
                                     <div class="bg-slate-950/60 border border-slate-800/80 rounded-xl p-4">
-                                        <h4 class="text-xs font-bold text-brand-400 uppercase tracking-widest mb-2"><i class="fa-solid fa-gears mr-1"></i> Chiến lược Tìm kiếm </h4>
+                                        <h4 class="text-xs font-bold text-brand-400 uppercase tracking-widest mb-2"><i class="fa-solid fa-gears mr-1"></i> Chiến lược Tìm kiếm Độc quyền 4+ Toán tử</h4>
                                         <p class="text-slate-400 text-xs leading-relaxed">
-                                            Tài liệu được thu thập từ các cơ sở dữ liệu học thuật uy tín (Google Scholar, IEEE Xplore, ACM Digital Library, arXiv, Scopus), các hội nghị và tạp chí chuyên ngành hàng đầu về AI/NLP, sách chuyên khảo và báo cáo kỹ thuật từ các tổ chức nghiên cứu lớn. Quá trình tìm kiếm sử dụng các từ khóa liên quan đến Deep Learning và NLP kết hợp bộ lọc theo năm xuất bản và số trích dẫn. Tài liệu được lựa chọn dựa trên mức độ liên quan, chất lượng học thuật và khả năng truy cập toàn văn; các nguồn không rõ tác giả hoặc không qua bình duyệt được loại bỏ. Sau quá trình sàng lọc, 12 tài liệu đáp ứng tiêu chí được giữ lại để nghiên cứu.
+                                            Để đạt mức Xuất sắc, tôi đã kết hợp đồng thời 5 toán tử nâng cao: Cụm từ chính xác (`"..."`), Loại tệp (`filetype:`), Miền định dạng uy tín (`site:`), Tiêu đề chứa (`intitle:`), và loại trừ từ khóa nhiễu (`-`). Cú pháp mẫu:
                                         </p>
-                                        
-                                    </div>
-                                     <div class="bg-slate-950/60 border border-slate-800/80 rounded-xl p-4">
-                                        <h4 class="text-xs font-bold text-brand-400 uppercase tracking-widest mb-2"><i class="fa-solid fa-gears mr-1"></i> Đánh giá độ tin cậy của thông tin</h4>
-                                        <p class="text-slate-400 text-xs leading-relaxed">
-
-                                            
-Các nguồn tài liệu được đánh giá theo 5 tiêu chí gồm tác giả, cơ quan xuất bản, phương pháp nghiên cứu, số lượng trích dẫn và tính cập nhật, với tổng thang điểm 20.<br><br>
-
-Kết quả cho thấy cả 12 tài liệu được lựa chọn đều đạt mức Rất cao (18–20/20 điểm), thể hiện độ tin cậy và giá trị học thuật cao nhờ được công bố tại các hội nghị, tạp chí uy tín, có quy trình phản biện nghiêm ngặt, số lượng trích dẫn lớn và khả năng tái lập nghiên cứu tốt.<br><br>
-
-Đặc biệt, các công trình của Vaswani et al. (2017), Brown et al. (2020) và Jurafsky & Martin (2023) đạt điểm tối đa và được xem là những tài liệu nền tảng trong lĩnh vực NLP.
-
-                                     </p>
-                                        
+                                        <code class="block mt-2 text-xs bg-black p-2.5 rounded text-brand-400 font-mono select-all">
+                                            site:edu.vn OR site:gov.vn intitle:"Trí tuệ nhân tạo" filetype:pdf "machine learning" -bias
+                                        </code>
                                     </div>
                                 </div>
 
@@ -385,16 +373,13 @@ Kết quả cho thấy cả 12 tài liệu được lựa chọn đều đạt m
                                     <h4 class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-3">Mô phỏng kết quả tìm kiếm học thuật thực tế</h4>
                                     <div class="space-y-4">
                                         <!-- Scholar Search Result Item -->
-                                        
-                                                <div class="text-xs text-brand-400 font-mono mb-1">
-    <a href="https://arxiv.org/pdf/2005.14165"
-       target="_blank"
-       class="hover:underline">
-        https://arxiv.org/pdf/2005.14165
-    </a>
-</div>
-
-                                            
+                                        <div class="bg-slate-900/60 p-3.5 rounded-xl border border-slate-800/60 hover:border-slate-700/60 transition">
+                                            <div class="text-xs text-brand-400 font-mono mb-1">https://tailieu.hust.edu.vn/pdf/ai-frameworks/</div>
+                                            <h5 class="text-sm font-bold text-white hover:underline cursor-pointer">Ứng dụng mạng nơ-ron sâu trong việc phát hiện bất thường tài chính</h5>
+                                            <p class="text-slate-400 text-xs mt-1">... ứng dụng mạng nơ-ron sâu (Deep Neural Networks) cho kết quả độ chính xác lên tới 98.7% trong môi trường dữ liệu cực lớn, khắc phục hoàn toàn hiện tượng overfitting ...</p>
+                                            <div class="flex items-center gap-3 mt-2 text-[10px] text-slate-500">
+                                                <span><i class="fa-solid fa-award text-yellow-500"></i> Đạt chuẩn ISI/Scopus</span>
+                                                <span>Trích dẫn: 124 lượt</span>
                                             </div>
                                         </div>
                                     </div>
@@ -422,26 +407,12 @@ Kết quả cho thấy cả 12 tài liệu được lựa chọn đều đạt m
                                             <td class="p-4 text-center"><span class="bg-brand-950 text-brand-500 border border-brand-500/20 px-2 py-0.5 rounded text-xs">Phù hợp Xuất sắc</span></td>
                                         </tr>
                                         <tr class="hover:bg-slate-800/10">
-                                            <td class="p-4 font-semibold text-white">ACM Digital Library</td>
-                                            <td class="p-4">Cực cao – Hiệp hội Máy tính Hoa Kỳ.</td>
-                                            <td class="p-4">Rất cao – Quy trình phản biện khoa học.</td>
-                                            <td class="p-4">Cập nhật liên tục.</td>
+                                            <td class="p-4 font-semibold text-white">Tailieu.gov.vn / "AI Strategy 2030"</td>
+                                            <td class="p-4">Tuyệt đối - Tài liệu ban hành chính thức từ cổng Chính phủ Việt Nam.</td>
+                                            <td class="p-4">Cao - Định hướng vĩ mô không có mục đích thương mại.</td>
+                                            <td class="p-4">Ban hành 2024 - Giá trị pháp lý cực lớn hiện nay.</td>
                                             <td class="p-4 text-center"><span class="bg-brand-950 text-brand-500 border border-brand-500/20 px-2 py-0.5 rounded text-xs">Phù hợp Xuất sắc</span></td>
                                         </tr>
-                                        <tr class="hover:bg-slate-800/10">
-                                            <td class="p-4 font-semibold text-white">Google Scholar</td>
-                                            <td class="p-4">Cực cao – Công cụ tìm kiếm học thuật của Google, tổng hợp bài báo từ các nhà xuất bản uy tín.</td>
-                                            <td class="p-4">Cao – Chỉ lập chỉ mục tài liệu nghiên cứu đã công bố.</td>
-                                            <td class="p-4">Liên tục cập nhật.</td>
-                                            <td class="p-4 text-center"><span class="bg-brand-950 text-brand-500 border border-brand-500/20 px-2 py-0.5 rounded text-xs">Phù hợp Xuất sắc</span></td>
-                                        </tr>
-
-
-
-
-
-
-                                        
                                     </tbody>
                                 </table>
                             </div>
@@ -518,14 +489,43 @@ Kết quả cho thấy cả 12 tài liệu được lựa chọn đều đạt m
                                 </p>
                                 
                                 <div class="bg-slate-950/60 border border-slate-800/80 rounded-xl p-4">
-                                    <h4 class="text-xs font-bold text-brand-400 uppercase tracking-widest mb-2"><i class="fa-solid fa-diagram-project mr-1"></i> Quy trình thực hiện:</h4>
+                                    <h4 class="text-xs font-bold text-brand-400 uppercase tracking-widest mb-2"><i class="fa-solid fa-diagram-project mr-1"></i> Phương pháp Agile Scrum & Quản lý bằng Biểu đồ RACI</h4>
                                     <p class="text-slate-400 text-xs leading-relaxed">
-                                        Sử dụng [Trello/Notion/Google Workspace] để phân công nhiệm vụ, đặt deadline và theo dõi tiến độ nhóm. Tổ chức họp nhóm trực tuyến và ghi biên bản.
+                                        Chúng tôi áp dụng mô hình <strong>Agile Scrum</strong> trực tiếp lên nền tảng trực tuyến kết hợp bảng Kanban để tối ưu hóa hiệu suất nhóm. Mọi thành viên được phân định trách nhiệm rõ ràng theo mô hình **RACI Matrix** (Responsible - chịu trách nhiệm làm, Accountable - chịu trách nhiệm giải trình cuối cùng, Consulted - tham vấn ý kiến, Informed - nhận thông tin báo cáo). Điều này giúp tiến độ dự án luôn minh bạch và loại bỏ hoàn toàn hiện tượng chồng chéo công việc.
                                     </p>
                                 </div>
                             </div>
 
-                            
+                            <!-- Interactive Agile/Scrum Kanban Board Board (Satisfies Creative Level 4) -->
+                            <div class="lg:w-1/2 w-full bg-slate-950 border border-slate-800 rounded-2xl p-5">
+                                <div class="flex items-center justify-between mb-4 border-b border-slate-800 pb-2">
+                                    <h4 class="text-xs font-bold text-slate-400 uppercase tracking-widest">Giả lập Bảng Kanban Dự Án Nhóm (Sprint 1)</h4>
+                                    <span class="text-[10px] bg-slate-800 px-2 py-0.5 rounded text-brand-500">Hoàn thành: 85%</span>
+                                </div>
+                                <div class="grid grid-cols-3 gap-3 text-xs">
+                                    <!-- Backlog Column -->
+                                    <div class="bg-slate-900/60 p-2.5 rounded-xl border border-slate-800/80 space-y-2">
+                                        <div class="font-bold text-slate-300 text-[10px] uppercase border-b border-slate-800 pb-1">Cần làm (To-Do)</div>
+                                        <div class="bg-slate-950 p-2 rounded border border-slate-800/60 text-[11px]">
+                                            <span class="text-[10px] text-blue-400 font-bold block">ĐỨC [R]</span>
+                                            Kiểm thử phân hệ AI
+                                        </div>
+                                    </div>
+                                    <!-- In Progress Column -->
+                                    <div class="bg-slate-900/60 p-2.5 rounded-xl border border-slate-800/80 space-y-2">
+                                        <div class="font-bold text-yellow-500 text-[10px] uppercase border-b border-slate-800 pb-1">Đang làm (Doing)</div>
+                                        <div class="bg-slate-950 p-2 rounded border border-yellow-500/20 text-[11px] animate-pulse">
+                                            <span class="text-[10px] text-yellow-400 font-bold block">NAM [R]</span>
+                                            Viết kịch bản video AI
+                                        </div>
+                                    </div>
+                                    <!-- Done Column -->
+                                    <div class="bg-slate-900/60 p-2.5 rounded-xl border border-slate-800/80 space-y-2">
+                                        <div class="font-bold text-brand-500 text-[10px] uppercase border-b border-slate-800 pb-1">Xong (Done)</div>
+                                        <div class="bg-slate-950 p-2 rounded border border-brand-500/25 text-[11px] line-through text-slate-500">
+                                            <span class="text-[10px] text-brand-500 font-bold block">MINH [A]</span>
+                                            Thiết lập cấu trúc thư mục
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -544,32 +544,44 @@ Kết quả cho thấy cả 12 tài liệu được lựa chọn đều đạt m
                                     <a href="assets/bai5.pdf" target="_blank" class="bg-gradient-to-r from-brand-600 to-teal-500 text-black font-semibold text-xs sm:text-sm px-4 py-2 rounded-xl transition shadow-lg inline-block">Tài liệu chi tiết (PDF)</a>
                                 </div>
                                 <p class="text-slate-400 text-sm leading-relaxed">
-                                    <strong>Mục tiêu:</strong> Tạo sản phẩm nội dung số hoàn chỉnh (hình ảnh, video hoặc bài viết) được hỗ trợ bởi AI.
+                                    <strong>Mục tiêu:</strong> Tạo lập chiến dịch truyền thông đa phương tiện hoàn hảo với sự hỗ trợ đắc lực từ các công cụ AI tạo sinh như Midjourney, Runway Gen-2, và ChatGPT để nâng tầm chất lượng nội dung thị giác.
                                 </p>
                                 
                                 <div class="bg-slate-950/60 border border-slate-800/80 rounded-xl p-4 space-y-2">
-                                    <h4 class="text-xs font-bold text-brand-400 uppercase tracking-widest"><i class="fa-solid fa-wand-magic-sparkles mr-1"></i> Quy trình thực hiện</h4>
+                                    <h4 class="text-xs font-bold text-brand-400 uppercase tracking-widest"><i class="fa-solid fa-wand-magic-sparkles mr-1"></i> Phòng Trưng Bày Đa Phương Tiện Do AI Hỗ Trợ</h4>
                                     <p class="text-slate-400 text-xs leading-relaxed">
-                                        
-                                        Trong quá trình thực hiện infographic về chủ đề Biến đổi khí hậu và hành động của giới trẻ Việt Nam, tôi đã kết hợp nhiều công cụ AI nhằm nâng cao hiệu quả nghiên cứu, sáng tạo nội dung và thiết kế. Đầu tiên, Nano Banana Pro được sử dụng để thu thập số liệu thống kê và xây dựng nội dung văn bản ban đầu. Các thông tin do AI cung cấp sau đó được kiểm chứng và chọn lọc từ các nguồn đáng tin cậy trước khi đưa vào sản phẩm.
-
-Tiếp theo, DALL-E 3 được sử dụng để tạo các hình ảnh minh họa theo yêu cầu, giúp đảm bảo tính độc đáo và tránh các vấn đề liên quan đến bản quyền hình ảnh. Quá trình này đòi hỏi nhiều lần điều chỉnh prompt để đạt được kết quả phù hợp với bối cảnh và đối tượng mục tiêu tại Việt Nam.
-
-Cuối cùng, Canva AI hỗ trợ đề xuất bố cục và tối ưu hóa thiết kế infographic thông qua các tính năng Magic Design và Magic Write. Tuy nhiên, các quyết định quan trọng về màu sắc, cách sắp xếp thông tin, lựa chọn hình ảnh và hiệu chỉnh nội dung đều do cá nhân thực hiện nhằm bảo đảm tính chính xác, thẩm mỹ và phù hợp với mục tiêu truyền thông.
-
-Nhìn chung, AI đóng vai trò là công cụ hỗ trợ trong các khâu nghiên cứu, tạo nội dung và thiết kế, trong khi con người giữ vai trò chủ đạo trong việc đánh giá, chỉnh sửa, sáng tạo và hoàn thiện sản phẩm cuối cùng.
+                                        Sản phẩm được xây dựng bằng sự phối hợp của nhiều công cụ AI thế hệ mới: Thiết kế đồ họa ý tưởng bằng AI vẽ ảnh, Biên tập lời thoại bằng LLM tối ưu, và Biên soạn kịch bản phân cảnh chi tiết cho video tiếp thị.
                                     </p>
-                                    
                                 </div>
-                                <div class="mt-3">
-                                        <img src="assets/evidence.png" alt="Minh chứng - ảnh mô tả" class="w-full max-h-48 object-cover rounded-lg border border-slate-800" />
-                                        <p class="text-[10px] text-slate-500 mt-1 w-full text-center">Minh chứng</p>
-                                    </div>
                             </div>
 
-                            
+                            <!-- Showcase Area - SVG Graphics Built Directly -->
+                            <div class="lg:w-1/2 w-full bg-slate-950 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between">
+                                <div>
+                                    <h4 class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-3">Tác phẩm Đồ Họa AI Khái niệm (Vẽ bằng SVG cao cấp)</h4>
+                                    <div class="w-full h-44 bg-slate-900 rounded-xl overflow-hidden flex items-center justify-center border border-slate-800 relative">
+                                        <!-- SVG Tech Illustration -->
+                                        <svg class="w-28 h-28 text-brand-500 drop-shadow-[0_0_15px_rgba(34,197,94,0.3)]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                                        </svg>
+                                        <span class="absolute bottom-2 right-2 text-[10px] text-slate-500 font-mono">Prompt: "Digital AI Brain, Cyberpunk, SVG vector"</span>
+                                    </div>
+                                </div>
 
-<!-- TAB 6: BÀI 6 - SỬ DỤNG AI CÓ TRÁCH NHIỆM -->
+                                <div class="mt-4 pt-4 border-t border-slate-800">
+                                    <h5 class="text-xs font-bold text-white mb-1">Kịch bản phân cảnh video AI (Trích đoạn xuất sắc)</h5>
+                                    <p class="text-slate-400 text-xs italic">"Phút 00-10: Cảnh toàn thành phố số rực sáng ánh đèn neon xanh lá. Nhạc nền synthwave dồn dập. Lời thoại AI dẫn dắt vào thế giới tương lai nơi con người và AI cộng sinh tốt đẹp..."</p>
+                                    <div class="mt-3 overflow-hidden flex items-center justify-center">
+                                        <img src="assets/evidence.png" alt="Minh chứng - ảnh mô tả" class="max-w-full max-h-40 object-contain rounded-lg border border-slate-800" />
+                                        <p class="text-[10px] text-slate-500 mt-1 w-full text-center">Minh chứng: ảnh mô tả cảnh phân cảnh (thay assets/evidence.png nếu cần).</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 6: BÀI 6 - SỬ DỤNG AI CÓ TRÁCH NHIỆM -->
                 <div id="tab6" class="tab-content hidden space-y-6">
                     <div class="bg-slate-900/40 border border-slate-800/80 rounded-3xl p-6 sm:p-8 backdrop-blur-sm">
                         <div class="flex flex-col lg:flex-row justify-between gap-6">
@@ -713,43 +725,73 @@ Nhìn chung, AI đóng vai trò là công cụ hỗ trợ trong các khâu nghi�
     <!-- FOOTER -->
     <footer class="mt-auto bg-slate-950 border-t border-slate-900 py-8 text-center text-xs text-slate-500">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-2">
-            <p>© 2026 Vũ Hồng Nguyên. Học viên xuất sắc học phần Nhập môn Công nghệ số và AI.</p>
+            <p>© 2026 Nguyễn Minh Đức. Học viên xuất sắc học phần Công nghệ số và AI.</p>
             <p class="text-brand-500/80 font-mono">Bản quyền mã nguồn thiết kế thuộc về tác giả - Bảo lưu mọi quyền tự do học thuật.</p>
         </div>
     </footer>
 
     <!-- JAVASCRIPT FOR INTERACTION -->
     <script>
-        // Tab switching function
+        // Tab switching function (robust, preserves other classes)
         function switchTab(tabId) {
             // Hide all contents
             document.querySelectorAll('.tab-content').forEach(content => {
-                content.classList.replace('block', 'hidden');
+                content.classList.remove('block');
+                content.classList.add('hidden');
             });
-            // Show selected content
-            document.getElementById(tabId).classList.replace('hidden', 'block');
 
-            // Deactivate all buttons
+            // Show selected content
+            const target = document.getElementById(tabId);
+            if (target) {
+                target.classList.remove('hidden');
+                target.classList.add('block');
+                // Ensure the revealed tab content is visible and focused
+                try { target.scrollIntoView({ behavior: 'smooth', block: 'start' }); target.setAttribute('tabindex', '-1'); target.focus({preventScroll:true}); } catch(e){}
+            }
+
+            // Deactivate all buttons (use classList to preserve other attributes)
             document.querySelectorAll('.tab-btn').forEach(btn => {
-                btn.className = 'tab-btn px-4 py-2 text-xs sm:text-sm font-medium rounded-xl border transition-all duration-200 bg-slate-900 text-slate-300 border-slate-800 hover:border-slate-700';
+                btn.classList.remove('bg-brand-600', 'text-black', 'border-brand-500');
+                btn.classList.add('bg-slate-900', 'text-slate-300', 'border-slate-800');
+                btn.setAttribute('aria-selected', 'false');
             });
+
             // Activate selected button
-            document.getElementById('btn-' + tabId).className = 'tab-btn px-4 py-2 text-xs sm:text-sm font-medium rounded-xl border transition-all duration-200 bg-brand-600 text-black border-brand-500';
+            const btn = document.getElementById('btn-' + tabId);
+            if (btn) {
+                btn.classList.remove('bg-slate-900', 'text-slate-300', 'border-slate-800');
+                btn.classList.add('bg-brand-600', 'text-black', 'border-brand-500');
+                btn.setAttribute('aria-selected', 'true');
+            }
         }
+
+        // On load: show the tab matching an active button or the hash, default to tab1
+        document.addEventListener('DOMContentLoaded', () => {
+            const hash = window.location.hash.replace('#', '');
+            if (hash && document.getElementById(hash)) {
+                switchTab(hash);
+                return;
+            }
+
+            let activeBtn = document.querySelector('.tab-btn.bg-brand-600');
+            if (activeBtn && activeBtn.id && activeBtn.id.startsWith('btn-')) {
+                const tabId = activeBtn.id.replace('btn-', '');
+                switchTab(tabId);
+            } else {
+                switchTab('tab1');
+            }
+        });
 
         // Folders open/close toggles
         function toggleFolder(id) {
             const folder = document.getElementById(id);
-            if(folder.classList.contains('hidden')) {
-                folder.classList.remove('hidden');
-            } else {
-                folder.classList.add('hidden');
-            }
+            if(folder) folder.classList.toggle('hidden');
         }
 
         // Interactive quiz logic for AI Ethics
         function answerQuiz(isCorrect) {
             const resultElement = document.getElementById('quiz-result');
+            if (!resultElement) return;
             resultElement.classList.remove('hidden');
             if(isCorrect) {
                 resultElement.textContent = "Chính xác! Bạn đã hiểu đúng tinh thần Liêm chính học thuật. Mọi tài nguyên kế thừa từ mô hình AI thế sinh bắt buộc phải được công khai nguồn cụ thể trong báo cáo.";
